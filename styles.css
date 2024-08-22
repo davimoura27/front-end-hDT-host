@@ -69,7 +69,7 @@
     align-items: center;
     list-style: none;
     gap: 50px;
-
+    text-align: center;
 }
 
 .beneficies li {
@@ -83,7 +83,7 @@
 }
 
 .fas {
-    font-size: 3rem;
+    font-size: 4rem;
 
 }
 
@@ -112,20 +112,20 @@
     flex-direction: column;
     align-items: center;
     gap: 150px;
-
+  
 
 }
 
 
 .tabela ul {
     display: flex;
-   
+
     align-items: center;
- 
+
 }
 
-.preco  {
-    
+.preco {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,14 +136,15 @@
     border-radius: 50%;
     justify-content: center;
     margin-top: -95px;
-    
-}
-.preco3 {
 
+}
+
+.preco3 {
+   
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c02a2a;
+    background-color: #e01717;
     color: #f6f7f6;
     width: 110px;
     height: 110px;
@@ -153,33 +154,33 @@
 
 }
 
-.tabela header{
- 
+.preco3 h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tabela header {
+
+    white-space: nowrap;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #232a31;
-   
+
     width: 260px;
-   
+    height: auto;
     border-radius: 0px;
     padding: 30px 80px;
     gap: 10px;
 }
-.tabela header h3{
+
+.tabela header h3 {
     color: #e4eee4;
 }
-.dados{
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #bacababb;
-color: #232a31;
-width: 260px;
-border-radius: 0;
-padding: 120px 100px;
-}
-.dados3  {
+
+.dados {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +190,38 @@ padding: 120px 100px;
     border-radius: 0;
     padding: 120px 100px;
 }
-.tabela button{
+.dados1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 260px; 
+    line-height: 3 ;
+   
+    
+    width: 260px;
+    background-color: #bacababb;
+    color: #232a31;
+ 
+    border-radius: 0;
+    padding: 10px 5px;
+    
+}
+
+.dados3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bacababb;
+    color: #232a31;
+    width: 260px;
+    border-radius: 0;
+    padding: 120px 100px;
+}
+
+.tabela button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,9 +231,34 @@ padding: 120px 100px;
     border-radius: 0%;
     padding: 20px 124px;
 }
+
 .ordem {
     display: flex;
-   
+
     align-items: center;
-    gap: 135px;
+    gap: 9vw;
+    max-width: 100%;
+    height: auto;
+}
+
+#comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2cc762;
+    color: #f6f7f6;
+    width: 260px;
+    border-radius: 0%;
+    padding: 20px 124px;
+}
+
+#comprar3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e01717;
+    color: #f6f7f6;
+    width: 260px;
+    border-radius: 0%;
+    padding: 20px 124px;
 }
